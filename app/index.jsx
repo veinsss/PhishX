@@ -15,7 +15,6 @@ export default function App() {
                         source={images.mainLogo}
                         className='w-[100px] h-[84px]'
                     />
-
                     <View classname="relative mt-5">
                         <Text className="text-3xl text-white font-bold text-center">
                             Protect your
@@ -24,7 +23,7 @@ export default function App() {
 
                     <View classname="relative mt-5">
                         <Text className="text-3xl text-secondary font-bold text-center">
-                            privacy
+                            privacy test push 
                         </Text>
                     </View>
 
