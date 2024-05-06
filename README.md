@@ -19,3 +19,4 @@ https://docs.expo.dev/router/installation/#manual-installation
 https://www.nativewind.dev/quick-starts/expo
 ## Terminal commands 
 
+> https://trello.com/b/MTUMvPSo/cs-project-management
