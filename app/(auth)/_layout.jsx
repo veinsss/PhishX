@@ -5,25 +5,25 @@ import { StatusBar } from 'expo-status-bar'
 import React from 'react'
 
 const authScreen = () => {
-  return (
-    <>
-    <Stack>
-      <Stack.Screen
-      name = "sign-in"
-      options = {{
-        headerShown:false
-      }}
-      />
+    return (
+        <>
+            <Stack>
+                <Stack.Screen
+                    name="sign-in"
+                    options={{
+                        headerShown: false
+                    }}
+                />
 
-      <Stack.Screen
-      name = "sign-up"
-      options = {{
-        headerShown:false
-      }}
-      />
-    </Stack>
-    </>
-  )
+                <Stack.Screen
+                    name="sign-up"
+                    options={{
+                        headerShown: false
+                    }}
+                />
+            </Stack>
+        </>
+    )
 }
 
 export default authScreen
