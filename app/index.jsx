@@ -4,7 +4,7 @@ import { Link, Redirect, router } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { images } from '../constants';
 import CustomButtons from '../components/CustomButtons';
-
+import 'react-native-url-polyfill/auto'
 
 export default function App() {
     return (

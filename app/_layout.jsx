@@ -3,7 +3,6 @@ import { useFonts } from 'expo-font'
 import { StyleSheet, Text, View } from "react-native";
 import { SplashScreen, Slot, Stack } from 'expo-router';
 
-
 const rootLayout = () => {
 
   const [fontsLoaded, error] = useFonts({
@@ -35,11 +34,12 @@ const rootLayout = () => {
   }
 
 
-
+  
   return (
+    
     <Stack>
-      <Stack.Screen name="index" options={{ headerShown: false }} />
-      <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+      {/* <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+      <Stack.Screen name="index" options={{ headerShown: false }} /> */}
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
     </Stack>
 
